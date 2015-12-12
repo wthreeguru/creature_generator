@@ -1,6 +1,7 @@
 <?php
 // Start the session
 session_start();
+date_default_timezone_set('America/Toronto');
 
 // clear all
 $name = $creature_type = $error = "";
